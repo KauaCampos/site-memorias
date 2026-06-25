@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>para você</title>
+<meta name="description" content="uma história, contada do nosso jeito.">
+
+<!-- PWA: permite instalar na tela inicial do iPhone -->
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Para Você">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="theme-color" content="#131D33">
+
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="componentes.css">
+</head>
+<body>
+
+<!-- ============ CAPA ============ -->
+<section class="capa" id="capa">
+  <h1 class="capa-nomes">
+    <span id="capaNomeDele"></span><span class="capa-e">&</span><span id="capaNomeDela"></span>
+  </h1>
+  <p class="capa-frase" id="capaFrase"></p>
+  <div class="capa-scroll">
+    <span>role para começar</span>
+    <span>↓</span>
+  </div>
+</section>
+
+<!-- ============ CONTADOR ============ -->
+<section class="secao contador-secao">
+  <p class="rotulo" style="text-align:center">desde então</p>
+  <h2 class="titulo-secao" id="contadorTitulo" style="text-align:center"></h2>
+  <div class="contador-numeros" id="contadorNumeros"></div>
+</section>
+
+<!-- ============ TIMELINE ============ -->
+<section class="secao timeline-secao">
+  <p class="rotulo reveal">Nossa história</p>
+  <h2 class="titulo-secao reveal">Momentos que nos marcaram...</h2>
+  <div class="timeline-trilho">
+    <div class="timeline-linha-fundo"></div>
+    <div class="timeline-linha-progresso" id="timelineProgresso"></div>
+    <div id="timelineLista"></div>
+  </div>
+</section>
+
+<!-- ============ LIVRO DE CARTAS ============ -->
+<section class="secao livro-secao">
+  <p class="rotulo reveal">algumas palavras</p>
+  <h2 class="titulo-secao reveal">um livro só nosso</h2>
+  <div class="livro-container reveal">
+    <div class="livro" id="livro"></div>
+    <div class="livro-controles">
+      <button class="botao-pagina" id="btnAnterior">← anterior</button>
+      <span class="livro-indicador" id="livroIndicador"></span>
+      <button class="botao-pagina" id="btnProxima">próxima →</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIA ============ -->
+<section class="secao galeria-secao">
+  <p class="rotulo reveal">em imagens</p>
+  <h2 class="titulo-secao reveal">os momentos guardados</h2>
+  <div class="galeria-grid" id="galeriaGrid"></div>
+</section>
+
+<div class="galeria-lightbox" id="lightbox">
+  <button class="galeria-fechar" id="lightboxFechar" aria-label="Fechar">×</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<!-- ============ FECHAMENTO ============ -->
+<section class="fechamento-secao">
+  <img class="fechamento-foto reveal" id="fechamentoFoto" alt="">
+  <p class="rotulo reveal">para fechar, por agora</p>
+  <h2 class="titulo-secao reveal" id="fechamentoTitulo"></h2>
+  <p class="fechamento-texto reveal" id="fechamentoTexto"></p>
+  <p class="fechamento-assinatura reveal" id="fechamentoAssinatura"></p>
+</section>
+
+<script src="dados.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
