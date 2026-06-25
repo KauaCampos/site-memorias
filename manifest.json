@@ -4,8 +4,8 @@
   "description": "uma história, contada do nosso jeito.",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#131D33",
-  "theme_color": "#131D33",
+  "background_color": "#1B0E14",
+  "theme_color": "#1B0E14",
   "orientation": "portrait",
   "icons": [
     {

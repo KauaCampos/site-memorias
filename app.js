@@ -22,7 +22,7 @@ function renderizarCapa() {
 
   if (fotoCapa) {
     const capa = document.getElementById('capa');
-    capa.style.backgroundImage = `linear-gradient(180deg, rgba(19,29,51,0.55) 0%, rgba(19,29,51,0.88) 100%), url('${fotoCapa}')`;
+    capa.style.backgroundImage = `linear-gradient(180deg, rgba(27,14,20,0.55) 0%, rgba(27,14,20,0.88) 100%), url('${fotoCapa}')`;
   }
 }
 

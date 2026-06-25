@@ -6,15 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-  /* Cores */
-  --papel: #F2E8D8;
-  --papel-claro: #FAF5EB;
-  --tinta: #1B2A4A;
-  --tinta-escura: #131D33;
-  --terracota: #C8755A;
-  --dourado: #A8884F;
-  --cafe: #2A1F1A;
-  --branco-quente: #FFFBF3;
+  /* Cores — paleta "papel antigo + vinho noturno" */
+  --papel: #EFE2DA;
+  --papel-claro: #FBF3EE;
+  --tinta: #2A1620;
+  --tinta-escura: #1B0E14;
+  --terracota: #A8324A;
+  --dourado: #C98A5E;
+  --cafe: #2A1714;
+  --branco-quente: #FFF8F4;
 
   /* Tipografia */
   --fonte-display: 'Fraunces', serif;
