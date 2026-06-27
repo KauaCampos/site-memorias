@@ -150,7 +150,7 @@ const DADOS = {
     },
     { src: "assets/fotos/galeria-10.jpg", legenda: "Alianças no dom pedro" },
     {
-      src: "assets/fotos/galeria-11.jpg",
+      src: "assets/fotos/galeria-11.png",
       legenda: "Despedindo do meu love antes das férias de julho de 2025",
     },
     {
@@ -323,7 +323,7 @@ const DADOS = {
       legenda: "Ano novoooooo, estilosos demais",
     },
     {
-      src: "assets/fotos/galeria-94.jpg",
+      src: "assets/fotos/galeria-94.png",
       legenda: "mandando beijo no meu niver",
     },
     {
