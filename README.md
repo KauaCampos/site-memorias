@@ -10,7 +10,7 @@ navegador, com ícone próprio. Esse site já está configurado pra isso
 3. Tocar em "Adicionar à Tela de Início"
 4. Pronto — vai aparecer um ícone na tela dela, exatamente como um app
 
-Estrutura de arquivos (caso queira entender ou ajustar o visual)
+Estrutura de arquivos
 
 ```
 index.html          → estrutura da página
