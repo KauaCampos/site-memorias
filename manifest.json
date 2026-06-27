@@ -1,6 +1,6 @@
 {
-  "name": "Para Você",
-  "short_name": "Para Você",
+  "name": "Para Meu Benzinho",
+  "short_name": "Meu Benzinho",
   "description": "uma história, contada do nosso jeito.",
   "start_url": "./index.html",
   "display": "standalone",
