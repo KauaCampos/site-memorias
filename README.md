@@ -27,3 +27,6 @@ Qualquer ajuste de cor ou fonte fica em `global.css`, nas variáveis no
 topo do arquivo (`--terracota`, `--tinta`, etc). Se quiser mudar a fonte,
 troque o nome no `@import` do Google Fonts e nas variáveis `--fonte-display`
 e `--fonte-corpo`.
+
+Hospedagem:
+[Github Pages](https://kauacampos.github.io/site-memorias/)
