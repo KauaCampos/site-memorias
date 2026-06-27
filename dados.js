@@ -115,7 +115,7 @@ const DADOS = {
   // 5. GALERIA DE FOTOS — mosaico de fotos soltas
   // ------------------------------------------------------------------------
   galeria: [
-    { src: "assets/fotos/galeria-1.jpg", legenda: "Legenda curta e opcional dessa foto" },
+    { src: "assets/fotos/galeria-1.jpg", legenda: "Foto que foi meu wallpaper por muito tempo" },
     { src: "assets/fotos/galeria-2.jpeg", legenda: "" },
     { src: "assets/fotos/galeria-3.jpeg", legenda: "" },
     { src: "assets/fotos/galeria-4.jpeg", legenda: "" },
