@@ -14,9 +14,29 @@
   text-align: center;
   position: relative;
   padding: 2rem;
-  background: linear-gradient(180deg, rgba(27,14,20,0.55) 0%, rgba(27,14,20,0.88) 100%), var(--tinta-escura);
-  background-size: cover;
-  background-position: center;
+  background: var(--tinta-escura);
+  overflow: hidden;
+}
+
+.capa-foto-fundo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  max-width: none;
+}
+
+.capa-foto-foco {
+  display: none;
+}
+
+.capa-veu {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(27,14,20,0.45) 0%, rgba(27,14,20,0.4) 45%, rgba(27,14,20,0.85) 75%, rgba(27,14,20,0.97) 100%);
+  pointer-events: none;
 }
 
 .capa::before {
@@ -25,6 +45,14 @@
   inset: 0;
   background: radial-gradient(ellipse at 50% 30%, rgba(168,136,79,0.12), transparent 60%);
   pointer-events: none;
+  z-index: 1;
+}
+
+.capa-nomes,
+.capa-frase,
+.capa-scroll {
+  position: relative;
+  z-index: 2;
 }
 
 .capa-nomes {
@@ -40,6 +68,7 @@
   opacity: 0;
   animation: surgir 1.4s var(--ease-suave) forwards;
   animation-delay: 0.3s;
+  text-shadow: 0 2px 18px rgba(0,0,0,0.45);
 }
 
 .capa-e {
@@ -208,6 +237,7 @@
   margin-top: 1.2rem;
   border-radius: 4px;
   overflow: hidden;
+  width: 100%;
   max-width: 360px;
   filter: sepia(8%);
   box-shadow: 0 12px 30px rgba(0,0,0,0.35);
@@ -421,11 +451,28 @@
   pointer-events: auto;
 }
 
-.galeria-lightbox img {
+.lightbox-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: min(90vw, 700px);
-  max-height: 85vh;
+  max-height: 90vh;
+}
+
+.galeria-lightbox img {
+  max-width: 100%;
+  max-height: 78vh;
   border-radius: 4px;
   box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+  width: auto;
+}
+
+.lightbox-legenda {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--branco-quente);
+  max-width: 46ch;
 }
 
 .galeria-fechar {

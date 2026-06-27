@@ -21,8 +21,7 @@ function renderizarCapa() {
   document.getElementById('capaFrase').textContent = fraseAbertura;
 
   if (fotoCapa) {
-    const capa = document.getElementById('capa');
-    capa.style.backgroundImage = `linear-gradient(180deg, rgba(27,14,20,0.55) 0%, rgba(27,14,20,0.88) 100%), url('${fotoCapa}')`;
+    document.getElementById('capaFotoFundo').src = fotoCapa;
   }
 }
 
@@ -160,11 +159,14 @@ function renderizarGaleria() {
 
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightboxImg');
+  const lightboxLegenda = document.getElementById('lightboxLegenda');
 
   grid.querySelectorAll('.galeria-item').forEach((item, i) => {
     item.addEventListener('click', () => {
       lightboxImg.src = DADOS.galeria[i].src;
       lightboxImg.alt = DADOS.galeria[i].legenda || '';
+      lightboxLegenda.textContent = DADOS.galeria[i].legenda || '';
+      lightboxLegenda.style.display = DADOS.galeria[i].legenda ? 'block' : 'none';
       lightbox.classList.add('aberto');
     });
   });

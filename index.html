@@ -8,6 +8,9 @@
 
 <!-- PWA: permite instalar na tela inicial do iPhone -->
 <link rel="manifest" href="manifest.json">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Para Você">
@@ -21,6 +24,9 @@
 
 <!-- ============ CAPA ============ -->
 <section class="capa" id="capa">
+  <img class="capa-foto-fundo" id="capaFotoFundo" src="" alt="" aria-hidden="true">
+  <img class="capa-foto-foco" id="capaFotoFoco" src="" alt="">
+  <div class="capa-veu"></div>
   <h1 class="capa-nomes">
     <span id="capaNomeDele"></span><span class="capa-e">&</span><span id="capaNomeDela"></span>
   </h1>
@@ -72,7 +78,10 @@
 
 <div class="galeria-lightbox" id="lightbox">
   <button class="galeria-fechar" id="lightboxFechar" aria-label="Fechar">×</button>
-  <img src="" alt="" id="lightboxImg">
+  <div class="lightbox-conteudo">
+    <img src="" alt="" id="lightboxImg">
+    <p class="lightbox-legenda" id="lightboxLegenda"></p>
+  </div>
 </div>
 
 <!-- ============ FECHAMENTO ============ -->

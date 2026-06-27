@@ -14,7 +14,7 @@ const DADOS = {
     nomeDela: "Prscilla",
     nomeDele: "Kauã",
     fraseAbertura: "para a pessoa que transformou meus dias comuns em capítulos que eu quero guardar e viver pelo resto da vida.",
-    fotoCapa: "assets/fotos/capa.jpg", // foto de fundo da primeira tela (deixe vazia "" se não quiser)
+    fotoCapa: "assets/fotos/galeria-85.jpg", // foto de fundo da primeira tela (deixe vazia "" se não quiser)
   },
 
   // ------------------------------------------------------------------------
