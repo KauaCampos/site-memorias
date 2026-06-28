@@ -106,14 +106,29 @@ const DADOS = {
         "Um belo sonho veio então, despertar minha vontade,<br> Tudo vale a pena pra te reencontrar,<br> Me livrei de tudo aquilo e consegui mudar,<br> Tudo que foi feito em troca de uma amizade, mas <br>Felicidade é poder estar com quem você gosta em algum lugar<br><br>Eu não preciso de promessas<br>E acho que você também<br>Eu não tento ser perfeito<br>E acho que você também<br><br>Dias e noites, pensando no que fiz<br>Eu sou um vencedor<br>Eu lutei pelo o que eu quis<br>Mas quando não se pode mais mudar<br><br>Tanta coisa errada<br>Vamos viver nossos sonhos<br>Temos tão pouco tempo<br><br>Foi quando te encontrei<br>Ouvindo o som e olhando o mar<br>Foi quando te encontrei<br>Ouvindo o som do mar rolar",
     },
     {
-      titulo: "Página 2",
+      titulo: "Wish You Were Here - Pink Floyd",
       texto:
-        "Continue a carta aqui. Cada página pode ter um tema diferente: o que você admira nela, uma piada interna, um agradecimento.",
+        "How I wish, how I wish you were here<br>We're just two lost souls<br>Swimming in a fish bowl, year after year<br>Running over the same old ground<br>What have we found?<br>The same old fears<br>Wish you were here",
     },
     {
-      titulo: "Página 3",
+      titulo: "Dear God - Avenged Sevenfold",
       texto:
-        "Adicione quantas páginas quiser copiando este bloco. Não existe limite — quanto mais sincero, melhor.",
+        "A lonely road, crossed another cold state line<br>Miles away from those I love, purpose hard to find<br>While I recall all the words you spoke to me<br>Can't help but wish that I was there<br>At where I'd love to be, oh, yeah<br><br>Dear God, the only thing I ask of You<br>Is to hold her when I'm not around<br>When I'm much too far away<br>We all need that person who can be true to you<br>But I left her when I found her<br>And now I wish I'd stayed<br><br>'Cause I'm lonely and I'm tired<br>I'm missing you again, oh, no<br>Once again<br><br>Some search, never finding a way<br>Before long, they waste away<br>I found you, something told me to stay<br>I gave in to selfish ways<br><br>And how I miss someone to hold<br>When hope begins to fade<br><br>A lonely road, crossed another cold state line<br>Miles away from those I love, purpose hard to find<br><br>Dear God, the only thing I ask of You<br>Is to hold her when I'm not around<br>When I'm much too far away<br>We all need that person who can be true to you<br>But I left her when I found her<br>And now I wish I'd stayed<br><br>'Cause I'm lonely and I'm tired<br>I'm missing you again, oh, no<br>Once again",
+    },
+    {
+      titulo: "Você Me Faz Tão Bem - Detonautas",
+      texto:
+        "Quando eu me perco é quando eu te encontro<br>Quando eu me solto, seus olhos me veem<br>Quando eu me iludo é quando eu te esqueço<br>Quando eu te tenho, eu me sinto tão bem<br><br>Você me fez sentir de novo<br>O que eu já não me importava mais<br>Você me faz tão bem<br>Você me faz, você me faz tão bem<br><br>Quando eu te invado de silêncio<br>Você conforta a minha dor com atenção<br>E quando eu durmo no seu colo<br>Você me faz sentir de novo o que eu já não sentia mais<br><br>Você me faz tão bem<br>Você me faz, você me faz tão bem<br>Você me faz, você me faz tão bem<br>Você me faz, você me faz tão bem",
+    },
+    {
+      titulo: "Outro Lugar - Detonautas",
+      texto:
+        "Ainda vou te levar pra outro lugar<br>Além do sol, do mar<br>Onde eu possa te ter, te amar<br>O tempo vai ser maior<br><br>Não te quero assim tão longe<br>Tanto quanto o céu do mar<br>Quero ter você mais perto<br>Certo, pronto pra te amar<br><br>Ainda vou te levar pra outro lugar<br>Além do sol, do mar<br>Onde eu possa te ter, te amar<br>O tempo vai ser maior<br><br>Quero ter o teu encanto<br>Tanto, pra me enfeitiçar<br>Quero ter você mais<br>Perto, pra poder te amar<br><br>As oportunidades dessa vida me fazem crer<br>Quando estamos frente a frente<br>Só eu e você<br>O tempo passa tudo é mais fácil<br>Difícil é esquecer o que eu passo<br>Quando você se vai<br><br>Fico aqui bolando plano mirabolantes<br>Fico inconstante, pareço iniciante<br>Eu vou fazer de tudo<br>Pra trazer você pra perto de mim<br>Pode acreditar que sim!<br><br>Ainda vou te levar pra outro lugar<br>Além do sol do mar<br>Onde eu possa te ter, te amar<br>O tempo vai ser maior",
+    },
+    {
+      titulo: "Exagerado - Cazuza",
+      texto:
+        "Amor da minha vida<br>Daqui até a eternidade<br>Nossos destinos<br>Foram traçados na maternidade<br><br>Paixão cruel, desenfreada<br>Te trago mil rosas roubadas<br>Pra desculpar minhas mentiras<br>Minhas mancadas<br><br>Exagerado<br>Jogado aos teus pés<br>Eu sou mesmo exagerado<br>Adoro um amor inventado",
     },
   ],
 
