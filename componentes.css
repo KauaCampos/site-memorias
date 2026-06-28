@@ -6,6 +6,7 @@
 .capa {
   height: 100vh;
   height: 100dvh;
+  height: var(--altura-capa, 100dvh);
   min-height: 600px;
   display: flex;
   flex-direction: column;

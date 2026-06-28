@@ -3,6 +3,7 @@
    ========================================================================== */
 
 document.addEventListener('DOMContentLoaded', () => {
+  travarAlturaViewport();
   renderizarCapa();
   renderizarContador();
   renderizarTimeline();
@@ -12,6 +13,35 @@ document.addEventListener('DOMContentLoaded', () => {
   ativarReveal();
   ativarProgressoTimeline();
 });
+
+/* -------------------- ALTURA DE VIEWPORT (fix Safari iOS) --------------------
+   No Safari iOS, 100dvh recalcula a cada frame enquanto a toolbar
+   recolhe/expande durante o scroll, fazendo a capa "esticar" sozinha.
+   Aqui travamos a altura real em uma CSS var, atualizada só em load
+   e em mudanças de orientação/redimensionamento reais — nunca durante scroll. */
+function travarAlturaViewport() {
+  let alturaAtual = window.innerHeight;
+
+  function definirAltura() {
+    document.documentElement.style.setProperty('--altura-capa', `${window.innerHeight}px`);
+    alturaAtual = window.innerHeight;
+  }
+
+  definirAltura();
+
+  window.addEventListener('orientationchange', () => {
+    setTimeout(definirAltura, 200);
+  });
+
+  window.addEventListener('resize', () => {
+    // Ignora variações pequenas (toolbar do Safari indo/voltando durante scroll),
+    // só atualiza se a mudança for grande o suficiente para ser um resize real
+    // (rotação de tela, abertura de teclado, redimensionamento de janela no desktop).
+    if (Math.abs(window.innerHeight - alturaAtual) > 150) {
+      definirAltura();
+    }
+  });
+}
 
 /* -------------------- CAPA -------------------- */
 function renderizarCapa() {
